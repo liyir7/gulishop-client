@@ -1,4 +1,5 @@
 {
+  // jsconfig.json配置别名@提示
     // 编译解析
     "compilerOptions": {
       "baseUrl": "./",
