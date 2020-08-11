@@ -34,8 +34,7 @@ export default [
         {
             path:'/login',
             component:Login,
-            meta:{
-                // 证明要隐藏footer
+            meta:{ // 证明要隐藏footer
                 isHide:true
             },
             props:true
