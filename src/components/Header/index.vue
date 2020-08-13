@@ -68,7 +68,8 @@ export default {
               }
           }
     //   this.$router.push('/search')//字符串
-    this.$router.push(location)//对象
+     this.$router.push(location)
+    // this.$router.push(location).catch(() => {})//对象
       }
   }
 }
