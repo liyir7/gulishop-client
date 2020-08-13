@@ -1,11 +1,14 @@
 <template>
   <div>
-    Search <br>
+    <!-- Search <br>
     params参数:{{$route.params.keyword}}
     params参数简便获取:{{keyword}}
     query参数:{{$route.query.keyword}}
-    query参数简便获取:{{keyword2}}
+    query参数简便获取:{{keyword2}} -->
+
+    <TypeNav />
   </div>
+  
 </template>
 
 <script>

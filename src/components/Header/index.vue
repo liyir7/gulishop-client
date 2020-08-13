@@ -60,12 +60,12 @@ export default {
           let location = {
             //   path:'/search',
             name:'search',
-              params:{
-                 keyword:this.keyword 
-              },
-              query:{
-                  keyword:this.keyword.toUpperCase()
-              }
+            //   params:{
+            //      keyword:this.keyword 
+            //   },
+            //   query:{
+            //       keyword:this.keyword.toUpperCase()
+            //   }
           }
     //   this.$router.push('/search')//字符串
      this.$router.push(location)
